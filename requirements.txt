@@ -1,0 +1,4 @@
+customtkinter
+CTkToolTip
+webbrowser
+pytesseract
