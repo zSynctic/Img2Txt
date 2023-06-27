@@ -12,6 +12,9 @@
 
 ### Don't forget to give a ⭐!
 
+![image](https://github.com/zSynctic/Img2Txt/assets/71632495/82fbc90c-59dc-4ab6-8e20-6fccf95bcca5)
+
+
 # Features
 
 - Image-to-Text Conversion: Convert images containing text into machine-readable plain text. 
