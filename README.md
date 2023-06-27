@@ -12,7 +12,8 @@
 
 ### Don't forget to give a ⭐!
 
-![image](https://github.com/zSynctic/Img2Txt/assets/71632495/491c5098-aea0-4479-9e3f-b957b9ad9467)
+![Image](https://github.com/zSynctic/Img2Txt/assets/71632495/697bba0f-6850-451f-aaff-b9714e3d72b6)
+
 
 # Features
 
