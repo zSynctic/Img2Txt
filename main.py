@@ -21,7 +21,8 @@ class App(customtkinter.CTk):
     global resource
 
     def resource(relative_path):
-        base_path = getattr(sys, "_MEIPASS", os.path.dirname(os.path.abspath(__file__)))
+        base_path = getattr(sys, "_MEIPASS", os.path.dirname(
+            os.path.abspath(__file__)))
         return os.path.join(base_path, relative_path)
 
     customtkinter.set_appearance_mode("dark")
@@ -69,7 +70,8 @@ class App(customtkinter.CTk):
 
         self.button.bind(
             "<Button-1>",
-            lambda event: webbrowser.open_new_tab("https://github.com/zSynctic"),
+            lambda event: webbrowser.open_new_tab(
+                "https://github.com/zSynctic/Img2Txt"),
         )
 
         self.tooltip = CTkToolTip(
@@ -124,39 +126,39 @@ class App(customtkinter.CTk):
         )
         self.step2.place(x=0, y=180)
 
-        self.ConvertButton = customtkinter.CTkButton(
+        self.ExtractButton = customtkinter.CTkButton(
             master=self.tabview.tab("Home"),
-            text="CONVERT",
+            text="EXTRACT",
             width=100,
             height=45,
             corner_radius=8,
             font=("Roboto Bold", -14),
-            command=self.convertToText,
+            command=self.ExtractToText,
         )
-        self.ConvertButton.place(x=0, y=210)
+        self.ExtractButton.place(x=0, y=210)
 
-        self.ConvertedLabel = customtkinter.CTkLabel(
+        self.ExtractedLabel = customtkinter.CTkLabel(
             master=self.tabview.tab("Result"),
-            text="Converted Text:",
+            text="Extracted Text:",
             font=("Roboto Medium", -15),
         )
-        self.ConvertedLabel.place(x=60, y=0)
+        self.ExtractedLabel.place(x=60, y=0)
 
-        self.ConvertedTextBox = customtkinter.CTkTextbox(
+        self.ExtractedTextBox = customtkinter.CTkTextbox(
             master=self.tabview.tab("Result"),
             width=220,
             height=340,
             activate_scrollbars=True,
         )
-        self.ConvertedTextBox.place(x=8, y=40)
+        self.ExtractedTextBox.place(x=8, y=40)
 
-        self.convertLabel = customtkinter.CTkLabel(
+        self.ExtractLabel = customtkinter.CTkLabel(
             master=self.imageframe,
-            text="Select an Image to Convert",
+            text="Select an Image to Extract",
             text_color="#A6ADBA",
             font=("Roboto Bold", -16),
         )
-        self.convertLabel.place(relx=0.5, rely=0.45, anchor=tkinter.CENTER)
+        self.ExtractLabel.place(relx=0.5, rely=0.45, anchor=tkinter.CENTER)
 
         self.copyright = customtkinter.CTkButton(
             master=self.sidebarframe,
@@ -170,6 +172,12 @@ By zSynctic""",
             font=("Roboto Medium", -13),
         )
         self.copyright.place(x=70, y=560)
+
+        self.copyright.bind(
+            "<Button-1>",
+            lambda event: webbrowser.open_new_tab(
+                "https://github.com/zSynctic/Img2Txt"),
+        )
 
     def open_FileImage(self):
         global file
@@ -187,7 +195,7 @@ By zSynctic""",
             dark_image=Image.open(os.path.join(file)),
             size=(self.IMAGE_WIDTH, self.IMAGE_HEIGHT),
         )
-        self.convertLabel.destroy()
+        self.ExtractLabel.destroy()
         image_label = customtkinter.CTkLabel(
             master=self.imageframe,
             image=loadedimage,
@@ -195,14 +203,14 @@ By zSynctic""",
         )
         image_label.place(x=26, y=25)
 
-    def convertToText(self):
+    def ExtractToText(self):
         global file, txt
         try:
             txt = pyt.image_to_string(file)
         except:
             pass
-        self.ConvertedTextBox.delete(1.0, tkinter.END)
-        self.ConvertedTextBox.insert(tkinter.END, txt)
+        self.ExtractedTextBox.delete(1.0, tkinter.END)
+        self.ExtractedTextBox.insert(tkinter.END, txt)
 
     def on_close(self, event=0):
         self.destroy()
