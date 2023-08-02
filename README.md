@@ -10,6 +10,8 @@
 
 ### [<img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/zSynctic/Img2Txt?display_name=release&label=Windows&logo=Windows&logoColor=019df4&style=for-the-badge" width="350">](https://github.com/zSynctic/Img2Txt/releases/download/v1.0.0/Img2Txt.exe)
 
+### [![Download Img2Txt](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/img2txt/files/latest/download)
+
 ### Don't forget to give a ⭐!
 
 ![Image](https://github.com/zSynctic/Img2Txt/assets/71632495/697bba0f-6850-451f-aaff-b9714e3d72b6)
