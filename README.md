@@ -37,3 +37,4 @@ To Run The Application You Have To Press **More Info** And Then **Run Anyways**.
 <br> [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 
 ![Github - Downloads](https://img.shields.io/github/downloads/zSynctic/Img2Txt/total?label=Github%20Downloads)
+![SourceForge - Downloads](https://img.shields.io/sourceforge/dt/img2txt?label=SourceForge%20Downloads)
