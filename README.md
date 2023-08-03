@@ -1,6 +1,9 @@
 [![header](https://capsule-render.vercel.app/api?type=cylinder&color=timeGradient&section=header&text=Img2Txt&fontSize=90&animation=fadeIn)](https://github.com/zSynctic/Img2Txt)
 
-**Important: If you are sharing this program. Please Include the official Download Link**
+**Important: If you are sharing this program. Please Include the official Download Link** <br />
+Official Download Link: [Download](https://github.com/zSynctic/Img2Txt/releases/download/v1.0.0/Img2Txt.exe)
+
+If you have any bugs or issues with the program you can open a issue.
 
 # What is Img2Txt?
 
