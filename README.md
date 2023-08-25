@@ -15,7 +15,7 @@ If you have any bugs or issues with the program you can open a issue.
 
 ### [![Download Img2Txt](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/img2txt/files/latest/download)
 
-### Don't forget to give a ⭐!
+### Don't forget to give a ⭐ and follow!
 
 ![Image](https://github.com/zSynctic/Img2Txt/assets/71632495/697bba0f-6850-451f-aaff-b9714e3d72b6)
 
