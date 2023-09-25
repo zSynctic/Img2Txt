@@ -3,8 +3,6 @@
 **Important: If you are sharing this program. Please Include the official Download Link** <br />
 Official Download Link: [Download](https://github.com/zSynctic/Img2Txt/releases/download/v1.0.0/Img2Txt.exe)
 
-If you have any bugs or issues with the program you can open a issue.
-
 # What is Img2Txt?
 
 **Img2Txt is a Python-based application packaged using PyInstaller that utilizes the power of pytesseract, an AI-powered optical character recognition (OCR) library, to extract text from images and convert it into plain text. The application features a simple and modern user-friendly interface created using customtkinter, allowing users to easily process images and obtain the text within them.**
