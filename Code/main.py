@@ -36,7 +36,7 @@ class App(customtkinter.CTk):
 
         self.protocol("WM_DELETE_WINDOW", self.on_close)
 
-        self.p1 = ImageTk.PhotoImage(file=resource("Assets/icon.ico"))
+        self.p1 = ImageTk.PhotoImage(file=resource("../Assets/icon.ico"))
         self.wm_iconbitmap()
         self.iconphoto(False, self.p1)
 
@@ -51,7 +51,7 @@ class App(customtkinter.CTk):
         self.imageframe.place(x=340, y=50)
 
         self.image = customtkinter.CTkImage(
-            dark_image=Image.open(resource("Assets/icon.png")),
+            dark_image=Image.open(resource("../Assets/icon.png")),
             size=(self.ICON_WIDTH, self.ICON_HEIGHT),
         )
         self.button = customtkinter.CTkButton(
